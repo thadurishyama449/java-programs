@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class Sum{
+class sum{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter ten numbers");
@@ -12,5 +12,6 @@ class Sum{
         }
        
         System.out.println(sum);
+        System.out.println("Newly added statement!!");
     }
 }
