@@ -21,7 +21,7 @@ public class AccountDemo {
 	public static void main(String[] args) {
 		Account ac=new Account();
 		ac.setAccountDetails(4257234, "savings", 300000000);
-		ac.withdraw(10000);
+		ac.withdraw(900000000);
 		ac.deposit(9000);
 		ac.dispAccountDetails();
 	}
