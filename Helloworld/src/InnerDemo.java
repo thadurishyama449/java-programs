@@ -10,7 +10,7 @@ class Outer{
 public class InnerDemo {
 
 	public static void main(String[] args) {
-		Outer.Inner innerObj = new Outer().new Inner();
+		Outer.Inner innerObj = new Outer.Inner();
 		innerObj.doStuff();
 	}
 
